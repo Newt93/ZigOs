@@ -27,5 +27,5 @@ export fn _start() callconv(.Naked) noreturn {
  
 fn kmain() void {
     console.initialize();
-    console.puts("Hello world!");
+    console.puts("Welcome to Zig OS!");
 }
